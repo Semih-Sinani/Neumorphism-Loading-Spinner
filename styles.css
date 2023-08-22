@@ -46,3 +46,13 @@
       transform: rotate(360deg);
     }
   }
+
+  span::before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    background: linear-gradient(45deg, #336dff, #5c89ff);
+    box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+  }
