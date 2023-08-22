@@ -11,3 +11,15 @@
     justify-content: center;
     background-color: #f1f1f1;
   }
+
+  .wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 1),
+      inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+  }
